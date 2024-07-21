@@ -151,11 +151,6 @@ body {
   line-height: 1.5;
   background-color: var(--color-light);
 }
-body.menu-open {
-  touch-action: none;
-  overscroll-behavior: none;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -532,7 +527,7 @@ h3 {
 }
 .menu__item--parent .menu__link:after {
   content: "";
-  background: url("../../images/icons/chevron-down.svg") 0 0 no-repeat;
+  background: url("/images/icons/chevron-down.svg") 0 0 no-repeat;
   flex: 0 0 20px;
   height: 20px;
   padding-right: 22px;
@@ -976,14 +971,14 @@ summary {
   cursor: pointer;
 }
 summary::after {
-  content: url("../../images/icons/plus.svg");
+  content: url("/images/icons/plus.svg");
   width: 24px;
   height: 24px;
   margin-left: 1em;
 }
 
 details[open] > summary::after {
-  content: url("../../images/icons/minus.svg");
+  content: url("/images/icons/minus.svg");
   width: 24px;
   height: 24px;
 }
