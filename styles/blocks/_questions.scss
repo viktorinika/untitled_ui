@@ -39,7 +39,7 @@ summary {
   cursor: pointer;
 
   &::after {
-    content: url('/images/icons/plus.svg');
+    content: url('/images/iconsplus.svg');
     width: 24px;
     height: 24px;
     margin-left: 1em;
@@ -47,7 +47,7 @@ summary {
 }
 
 details[open] > summary::after {
-  content: url('/images/icons/minus.svg');
+  content: url('/images/iconsminus.svg');
   width: 24px;
   height: 24px;
 }
